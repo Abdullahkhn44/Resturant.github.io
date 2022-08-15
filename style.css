@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Courgette&family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Courgette&family=Dancing+Script:wght@500&family=Prompt:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Courgette&family=Dancing+Script:wght@500&family=Lobster+Two:ital@1&family=Prompt:ital,wght@0,400;1,300&display=swap');
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  
+    
+}
+.banner{
+  
+}
+.banner_img{
+    width: 100%;
+    height: 35%;
+    position: relative;
+    filter: blur(8px);
+  -webkit-filter: blur(3px);
+
+}
+.banner_txt{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 1%;
+    background: -webkit-linear-gradient(rgb(245, 110, 132), rgb(232, 201, 23));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 120px;
+}
+.banner_disc{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 44%;
+    background: -webkit-linear-gradient(rgb(185, 245, 95), rgb(85, 231, 239));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    
+}
+
+li{
+    display:inline-block;
+    width: 240.6px;
+}
+li,a{
+    color: rgb(255, 234, 0);
+    text-decoration: none;
+    padding: 9px;
+    height: 50px;
+    font-family: 'Courgette';
+    font-size: x-large;
+    font-weight: 900;
+
+}
+.navigation{
+    background-color: rgb(0, 0, 0);
+    position:fixed;
+    top: 0%;
+    right: 0%;
+    z-index: 12;
+    width: 100%;
+    padding: 4px;
+}
+.Rest{
+    width: 40%;
+    height: auto;
+    position:absolute;
+    left: 800px;
+    border-radius: 10px;
+    top: 740px;
+
+}
+.About{
+    width: 650px;
+    font-family: 'Prompt', sans-serif;
+    position: absolute;
+    left: 20px;
+    font-size: larger;
+    top: 800px;
+    font-weight: bold;
+}
+.Abtus{
+    
+    height: 390px;
+    background-image: linear-gradient(295deg, #ffbf0f 50%, #0cbaba 0%);
+}
+
+.Popular{
+    background-color:rgb(26, 26, 53);
+    height: 150px;
+
+}
+.Popular_txt{
+    
+    font-family: 'Lobster Two', cursive;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    position: absolute;
+    top: 1170px;
+    left: 40%;
+   
+    
+}
+
+.Dishes{
+    background-image: linear-gradient(77deg, #ff7b1e 50%, #00d99d 0%);
+    padding-inline: 190px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.Curry{
+    width: 300px;
+    padding: 6px;
+    height: 300px;
+    border-radius: 20px;
+    
+    
+}
+.Curry:hover{
+    border: 2px solid rgb(255, 235, 14);
+}
+.Biryani:hover{
+    border: 2px solid rgb(255, 235, 14);
+}
+.Dessert:hover{
+    border: 2px solid rgb(255, 235, 14);
+}
+.Biryani{
+    width: 300px;
+    padding: 6px;
+    height: 300px;
+    border-radius: 20px;
+}.Dessert{
+    width: 300px;
+    padding: 6px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.Dishes_txt{
+    background-color:rgb(49, 49, 100);
+    
+    
+    
+}
+.Popular_pot{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    position: absolute;
+    width: 50%;
+    top: 210%;
+    left: 47%;
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(147, 9, 9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+}
+.Popular_Bir{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    position: absolute;
+    width: 49%;
+    top: 255%;
+    left: 49%;
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(147, 9, 9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+}
+.Popular_Shahi{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    position: absolute;
+    width: 46.5%;
+    top: 312%;
+    left: 54%;
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(147, 9, 9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+  
+}
+
+.chefs{
+    width: 500px;
+    padding: 6px;
+    height: 500px;
+    border-radius:15px;
+    position: absolute;
+    right: 25px;
+}
+.check_para{
+    width: 650px;
+    font-family: 'Prompt', sans-serif;
+    position: absolute;
+    left: 80px;
+    font-size: x-large;
+    top: 2590px;
+    font-weight: bold;
+    
+}
+.foot{
+    background: rgb(34,26,196);
+background: linear-gradient(128deg, rgba(34,26,196,1) 0%, rgba(255,0,129,1) 100%);
+    position: absolute;
+    top: 2870px;
+    height: 200px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Prompt', sans-serif;
+    font-size: large;
+   
+}
+.foot_txt{
+    right: 250px;
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    color: #000000;
+}
+.btn {
+    clear:both;
+    white-space:nowrap;
+    font-size:.8em;
+    display:inline-block;
+    border-radius:5px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.35);
+    margin:2px;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s;
+    overflow:hidden
+  }
+  
+  .btn:hover {
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.45);
+  }
+  
+  .btn:focus {
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.4);
+  }
+  
+  .btn > span,.btn-icon > i {
+    float:left;
+    padding:13px;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s;
+    line-height:1em
+  }
+  
+  .btn > span {
+    padding:14px 18px 16px;
+    white-space:nowrap;
+    color:#FFF;
+    background:#b8b8b8
+  }
+  
+  .btn:focus > span {
+    background:#9a9a9a
+  }
+  
+  .btn-icon > i {
+    border-radius:5px 0 0 5px;
+    position:relative;
+    width:13px;
+    text-align:center;
+    font-size:1.25em;
+    color:#fff;
+    background:#212121
+  }
+  
+  .btn-icon > i:after {
+    content:"";
+    border:8px solid;
+    border-color:transparent transparent transparent #222;
+    position:absolute;
+    top:13px;
+    right:-15px
+  }
+  
+  .btn-icon:hover > i,.btn-icon:focus > i {
+    color:#FFF
+  }
+  
+  .btn-icon > span {
+    border-radius:0 5px 5px 0
+  }
+  
+  /*Facebook*/
+  .btn-facebook:hover > i,.btn-facebook:focus > i {
+    color:#3b5998
+  }
+  
+  .btn-facebook > span {
+    background:#3b5998
+  }
+  
+  /*Twitter*/
+  .btn-twitter:hover > i,.btn-twitter:focus > i {
+    color:#55acee
+  }
+  
+  .btn-twitter > span {
+    background:#55acee
+  }
+  
+  /*Google*/
+  .btn-googleplus:hover > i,.btn-googleplus:focus > i {
+    color:#dd4b39
+  }
+  
+  .btn-googleplus > span {
+    background:#dd4b39
+  }
+  
+  /*Pinterest*/
+  .btn-pinterest:hover > i,.btn-pinterest:focus > i {
+    color:#cb2028
+  }
+  
+  .btn-pinterest > span {
+    background:#cb2028
+  }
+  
+  /*LinkedIn*/
+  .btn-linkedin:hover > i,.btn-linkedin:focus > i {
+    color:#007bb6
+  }
+  
+  .btn-linkedin > span {
+    background:#007bb6
+  }
+  
